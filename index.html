@@ -7,7 +7,19 @@
     <title>Lista de Contactos</title>
   </head>
   <body>
+    <div class="formulario">
+      <h2>Registrar Contacto</h2>
+      <label for="nombre">Nombre</label>
+      <input type="text" id="nombre" name="nombre" required />
+      <label for="apellido">Apellido</label>
+      <input type="text" id="apellido" name="apellido" required />
+      <label for="telefono">Teléfono</label>
+      <input type="text" id="telefono" name="telefono" required />
+      <button id="registrar">Registrar</button>
+    </div>
     <div class="contactos" id="listaContactos"></div>
+    <div class="paginacion" id="paginacion"></div>
+
     <script src="main.js"></script>
   </body>
 </html>
