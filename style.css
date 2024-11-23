@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0\.1);
+}
+
+.contacto {
+  margin-bottom: 15px;
+}
+
+.contacto p {
+  margin: 5px 0;
+}
+
+.contacto a {
+  color: #25d366; /* Color verde de WhatsApp */
+  text-decoration: none;
+}
